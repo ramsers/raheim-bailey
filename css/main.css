@@ -1,0 +1,204 @@
+/* Base Styles */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #1f202b; 
+    
+}
+
+p, h1, h2, h3, h4, h5, span {
+    color: #ffffff;
+}
+
+.full-width {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+
+.third-width {
+    width: 31%;
+    float: left;
+}
+
+/* HEADER SECTION */
+
+header {
+    height: 50px;
+    background-size: cover;
+    padding: 16px 30px 8px 28px;
+    margin: 2px 2px 21px 41px;
+}
+header h1  {
+    font-size: 18px;
+    padding: 4px 11px 11px 3px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+header span {
+    font-weight: bold;
+}
+#website-title {
+    /* padding-left: 15px; */
+}
+
+#nav {
+   float: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 80px;   
+}
+
+/* CENTERPIECE SECTION */
+#centerpiece {
+    background: url('../img/hero-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 770px;
+    padding: 1px 5px 14px 0px;
+    margin: 4px 61px;
+}
+
+#centerpiece h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 102px;
+    letter-spacing: 2px;
+    line-height: 118px;
+    padding: 162px 0 295px 100px;
+    width: 599px;
+}
+#centerpiece h2 span {
+    color: #fa0075;
+}
+
+
+/* PORTFOLIO SECTION */
+#portfolio {
+ height: 1543px;
+ text-align: center;
+}
+
+
+
+#portfolio h4 {
+color: #f70074;
+font-size: 36px;
+text-align: center;
+}
+
+#project1-text {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+#project2-text {
+    clear: both;
+    font-size: 20px;
+    padding-top: 104px;
+    text-align: right;
+}
+
+#project2-img {
+    padding-top: 104px;
+}
+
+#project3-text {
+    font-size: 20px;
+    padding-top: 104px;
+    text-align: left;
+}
+
+#project3-img {
+    padding-top: 104px;
+}
+#about {
+    height: 550px;
+    background: url('../img/about-me.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 20px 0 105px;
+} 
+#about  h3 {
+    color: #fa0075;
+    font-size: 36px;
+    text-align: center;    
+} 
+
+#about p:first-of-type {
+    color: #1f202b;
+    font-weight: bold;
+    font-size: 24px;
+}
+#about p:nth-child(2) {
+    color: #1f202b;
+    font-weight: 24px;
+    font-size: 24px;
+}
+
+
+#about span {
+    color: #1f202b;
+    font-weight: 24px;
+    font-size: 24px;
+}
+
+
+/* FOOTER SECTION */
+
+#contact {
+    height: 50px;
+}
+
+#footer-txt {
+    text-align: center;
+}
+
+.connect{
+    color: #f70074;
+    font-size: 36px;
+    text-align: center;
+}
+
+#hire {
+    padding-left: 57px;
+    font-size: 24px;
+}
+
+#hire a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#follow {
+    font-size: 24px;
+}
+#follow .fab {
+    font-size: 55px;
+    padding-top: 24px;
+    color: #fa0075;
+    letter-spacing: 15px;
+}
+#meet {
+    font-size: 24px;
+}
+
+.copyright {
+    clear: both;
+}
